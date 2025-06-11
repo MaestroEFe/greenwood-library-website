@@ -52,17 +52,11 @@ $ git clone https://github.com/your-username/greenwood-library-website.git
 
 # Morgan's Work: Adding Book Reviews
 
-1. Create a Branch for Morgan
+1. Create a Branch for Morgan: Assuming morgan has cloned or pull the current main branch, he creates a new branch named *add-book-reviews*.
 
 ```bash
 $ git branch add-book-reviews
 ```
-
-```bash
-$ git checkout add-book-reviews
-```
-
-![Create a new branch](../img/7.create-new-branch.png)
 
 2. Switch to a new branch named add-book-reviews.
 
@@ -70,29 +64,18 @@ $ git checkout add-book-reviews
 $ git checkout add-book-reviews
 ```
 
-![Switch to a new branch](../img/8.switch-to-new-branch.png)
+![Create a new branch](../img/7.add-book-review-branch.png)
 
 3. Add a new file named *"book-reviews.html"* to represent the Book Reviews section.
 
 ```bash
-$ touch book-reviews.html
+$ echo. > book-reviews.html
 ```
 
-![Add new file](../img/9.add-new-file.png)
-
-```bash
-$ git add book-reviews.html
-```
-
-![Stage changes](../img/10.stage-changes.png)
-
-```bash
-$ git commit -m "Add book reviews section"
-```
-
-![Commit changes](../img/11.commit-changes.png)
+![Add new file](../img/8.create-book-review-file.png)
 
 4. Add a random text content into the file.
+
 5. Stage, commit the changes to the add-book-reviews branch.
 ```bash
 $ git add book-reviews.html
