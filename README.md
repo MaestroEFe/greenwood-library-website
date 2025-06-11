@@ -47,3 +47,66 @@ $ git clone https://github.com/your-username/greenwood-library-website.git
 2. Add any random content into each of the files.
 
 3. Stage, commit, and push the changes to the main branch. (This is a simulation of the team's existing codebase for the website.)
+
+![Add random content](../img/6.initial-code-base.png)
+
+# Morgan's Work: Adding Book Reviews
+
+1. Create a Branch for Morgan: Assuming morgan has cloned or pull the current main branch, he creates a new branch named *add-book-reviews*.
+
+```bash
+$ git branch add-book-reviews
+```
+
+2. Switch to a new branch named add-book-reviews.
+
+```bash
+$ git checkout add-book-reviews
+```
+
+![Create a new branch](../img/7.add-book-review-branch.png)
+
+3. Add a new file named *"book-reviews.html"* to represent the Book Reviews section.
+
+```bash
+$ echo. > book-reviews.html
+```
+
+![Add new file](../img/8.create-book-review-file.png)
+
+4. Add a random text content into the file.
+
+5. Stage, commit the changes to the add-book-reviews branch.
+```bash
+$ git add book-reviews.html
+```
+
+```bash
+$ git commit -m "Add book reviews section"
+```
+6. Push the *add-book-reviews* branch to the remote repository.
+```bash
+$ git push origin add-book-reviews
+```
+
+![Push changes](../img/12.push-changes.png)
+
+7. Raise a PR for Morgan's Work.
+
+![Raise PR](../img/13.raise-pr.png)
+
+8. Review and merge Morgan's Work into the main branch.
+
+![Merge PR](../img/14.merge-pr.png)
+
+
+# Jamie's Work: Updating Events
+
+Repeat the same work flow for Jamie's Work on Events Page. Ensure Jamie's work is in* update-events* branch.
+
+- Pull the latest changes from the main branch into *update-events* branch.
+
+```bash
+$ git checkout update-events
+$ git pull origin main
+```
