@@ -89,22 +89,38 @@ $ git commit -m "Add book reviews section"
 $ git push origin add-book-reviews
 ```
 
-![Push changes](../img/12.push-changes.png)
+![Push changes](../img/11.git-push-book-reviews-section-to-origin.png)
 
-7. Raise a PR for Morgan's Work.
+7. Raise a PR for Morgan's Work: Go to the GitHub website and raise a pull request for the *add-book-reviews* branch for Morgan work to be reviewed by a reviewer. Click on the *Compare & pull request* button where it will take you to the page where you can add a title and description for the pull request. you will see that the *add-book-reviews* branch is compared with the *main* branch. Then click on the *Create pull request* button.
 
-![Raise PR](../img/13.raise-pr.png)
+![Raise PR](../img/12.github-pull-request.png)
 
-8. Review and merge Morgan's Work into the main branch.
+![Raise PR](../img/13.request-review-of-pull-request%20befor%20merge.png)
 
-![Merge PR](../img/14.merge-pr.png)
 
+8. Review Morgan's Work: Go to the GitHub account of the reviewer and review the pull request made by Morgan. Approve it for it to be merged into the main branch. Durring the review process, you can add comments to the pull request. You can also reject the pull request if it is not up to the standard. You can also request changes to be made to the pull request. Then click on the *Merge pull request* button. Approve the pull request.
+
+![Review PR](../img/14.review%20process.png)
+
+9. Merge Morgan's Work: Go to the GitHub account as Morgan and merge the approved pull request made by Morgan into the main branch. Click on the *Confirm merge* button after adding a title and description for the merge commit.
+
+![Review PR](../img/15.confirm-merge.png)
+
+When the merger is succefful, you will get a merge commit message.
+
+![Review PR](../img/15.merge-successful.png)
 
 # Jamie's Work: Updating Events
 
 Repeat the same work flow for Jamie's Work on Events Page. Ensure Jamie's work is in* update-events* branch.
 
-- Pull the latest changes from the main branch into *update-events* branch.
+1. Create a Branch for Jamie: Assuming Jamie has cloned or pull the current main branch, he creates a new branch named *update-events*.
+
+```bash
+$ git branch update-events
+```
+
+2. Switch to a new branch named update-events.
 
 ```bash
 $ git checkout update-events
