@@ -133,3 +133,10 @@ $ git branch update-events
 ```bash
 $ git checkout update-events
 ```
+
+4. Publich the update-events branch to the remote repository.
+```bash
+$ git push origin update-events
+```
+
+![Push changes](../img/17.git-push-update-events-section-to-origin.png)
