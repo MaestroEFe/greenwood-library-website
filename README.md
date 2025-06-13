@@ -24,9 +24,9 @@ This is to simulate the roles of two contributors: *"Morgan"* and *"Jamie"*. Mor
 
 - Initialize with README.md file
 
-![Create a new repository](../img/1.create-new-repo.png)
+![Create a new repository](img/1.create-new-repo.png)
 
-![Create a new repository](../img/1.2.name-repo.png)
+![Create a new repository](img/1.2.name-repo.png)
 
 ### Clone the repository
 
@@ -48,7 +48,7 @@ $ git clone https://github.com/your-username/greenwood-library-website.git
 
 3. Stage, commit, and push the changes to the main branch. (This is a simulation of the team's existing codebase for the website.)
 
-![Add random content](../img/6.initial-code-base.png)
+![Add random content](img/6.initial-code-base.png)
 
 # Morgan's Work: Adding Book Reviews
 
@@ -64,7 +64,7 @@ $ git branch add-book-reviews
 $ git checkout add-book-reviews
 ```
 
-![Create a new branch](../img/7.add-book-review-branch.png)
+![Create a new branch](img/7.add-book-review-branch.png)
 
 3. Add a new file named *"book-reviews.html"* to represent the Book Reviews section.
 
@@ -72,7 +72,7 @@ $ git checkout add-book-reviews
 $ echo. > book-reviews.html
 ```
 
-![Add new file](../img/8.create-book-review-file.png)
+![Add new file](img/8.create-book-review-file.png)
 
 4. Add a random text content into the file.
 
@@ -89,26 +89,26 @@ $ git commit -m "Add book reviews section"
 $ git push origin add-book-reviews
 ```
 
-![Push changes](../img/11.git-push-book-reviews-section-to-origin.png)
+![Push changes](img/11.git-push-book-reviews-section-to-origin.png)
 
 7. Raise a PR for Morgan's Work: Go to the GitHub website and raise a pull request for the *add-book-reviews* branch for Morgan work to be reviewed by a reviewer. Click on the *Compare & pull request* button where it will take you to the page where you can add a title and description for the pull request. you will see that the *add-book-reviews* branch is compared with the *main* branch. Then click on the *Create pull request* button.
 
-![Raise PR](../img/12.github-pull-request.png)
+![Raise PR](img/12.github-pull-request.png)
 
-![Raise PR](../img/13.request-review-of-pull-request%20befor%20merge.png)
+![Raise PR](img/13.request-review-of-pull-request%20befor%20merge.png)
 
 
 8. Review Morgan's Work: Go to the GitHub account of the reviewer and review the pull request made by Morgan. Approve it for it to be merged into the main branch. Durring the review process, you can add comments to the pull request. You can also reject the pull request if it is not up to the standard. You can also request changes to be made to the pull request. Then click on the *Merge pull request* button. Approve the pull request.
 
-![Review PR](../img/14.review%20process.png)
+![Review PR](img/14.review%20process.png)
 
 9. Merge Morgan's Work: Go to the GitHub account as Morgan and merge the approved pull request made by Morgan into the main branch. Click on the *Confirm merge* button after adding a title and description for the merge commit.
 
-![Review PR](../img/15.confirm-merge.png)
+![Review PR](img/15.confirm-merge.png)
 
 When the merger is succefful, you will get a merge commit message.
 
-![Review PR](../img/15.merge-successful.png)
+![Review PR](img/15.merge-successful.png)
 
 # Jamie's Work: Updating Events
 
@@ -120,7 +120,7 @@ Repeat the same work flow for Jamie's Work on Events Page. Ensure Jamie's work i
 $ git pull origin main
 ```
 
-![Pull changes](../img/16.git-pull-main-for-jamie.png)
+![Pull changes](img/16.git-pull-main-for-jamie.png)
 
 2. Then create a Branch for himself: Assuming Jamie has cloned or pull the current main branch, he creates a new branch named *update-events*.
 
@@ -145,7 +145,7 @@ $ git add Events.html
 $ git commit -m "Update events page"
 ```
 
-![Commit changes](../img/17.git-add-commit-event-changes.png)
+![Commit changes](img/17.git-add-commit-event-changes.png)
 Note that the command *git add Events.html* is also equivalent to *git add .* and *git add -A*. Also, the command *git commit -m "Update events page"* was not used in the image as a matter of typo. instead of event page, I used readme file. which is as a result of my continuous typing on the readme file. but it essentialy does commit the changes to the update-events branch.
 
 6. Push Jamie's *update-events* branch to the remote repository.
@@ -153,17 +153,17 @@ Note that the command *git add Events.html* is also equivalent to *git add .* an
 $ git push origin update-events
 ```
 
-![Push changes](../img/18.publish-jamie-branch.png)
+![Push changes](img/18.publish-jamie-branch.png)
 
 7. Raise a PR for Jamie's Work similar to Morgan's Work when adding book reviews: Go to the GitHub website and raise a pull request for the *update-events* branch for Jamie work to be reviewed by a reviewer. Click on the *Compare & pull request* button where it will take you to the page where you can add a title and description for the pull request. you will see that the *update-events* branch is compared with the *main* branch. Then click on the *Create pull request* button.
 
-![Raise PR](../img/12.github-pull-request.png)
+![Raise PR](img/12.github-pull-request.png)
 
-![Raise PR](../img/13.request-review-of-pull-request%20befor%20merge.png)
+![Raise PR](img/13.request-review-of-pull-request%20befor%20merge.png)
 
 8. Reveiw Jamie's work just like that of Morgan, approve it for it to be merged into the main branch. 
 
-![Review PR](../img/14.review%20process.png)
+![Review PR](img/14.review%20process.png)
 
 9. After the merger of Jamie's work and Morgan's work, you can then delete the branches that have been merged into the main branch. Note that it is important to ensure that the before Jamie work is merged into the main branch, Morgan's work is merged into the main branch. This is a very important step as shown above.
 
