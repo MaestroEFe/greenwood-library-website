@@ -114,15 +114,22 @@ When the merger is succefful, you will get a merge commit message.
 
 Repeat the same work flow for Jamie's Work on Events Page. Ensure Jamie's work is in* update-events* branch.
 
-1. Create a Branch for Jamie: Assuming Jamie has cloned or pull the current main branch, he creates a new branch named *update-events*.
+1. Assuming Jamie wants to update the events page, he will first pull the latest changes from the main branch.
+
+```bash
+$ git pull origin main
+```
+
+![Pull changes](../img/16.pull-changes.png)
+
+2. Then create a Branch for himself: Assuming Jamie has cloned or pull the current main branch, he creates a new branch named *update-events*.
 
 ```bash
 $ git branch update-events
 ```
 
-2. Switch to a new branch named update-events.
+3. Switch to a new branch named update-events.
 
 ```bash
 $ git checkout update-events
-$ git pull origin main
 ```
